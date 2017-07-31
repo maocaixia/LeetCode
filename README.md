@@ -1,2 +1,2 @@
 # LeetCode
-Decord the Leetcode
+Record the Leetcode
