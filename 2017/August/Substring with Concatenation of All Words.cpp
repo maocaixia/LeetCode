@@ -2,7 +2,11 @@
 Map容器的介绍(哈希表未整理) 
 **************************
 http://blog.csdn.net/gubenpeiyuan/article/details/9613979
-/**********************
+**************************
+STL中，map对应的数据结构是红黑树。红黑树是一种近似于平衡的二叉查找树，里面的数据是有序的。在红黑树上做查找操作的时间复杂度为 O(logN)。
+而unordered_map对应 哈希表，哈希表的特点就是查找效率高，时间复杂度为常数级别 O(1)， 而额外空间复杂度则要高出许多。所以对于需要高效率
+查询的情况，使用unordered_map容器。而如果对内存大小比较敏感或者数据存储要求有序的话，则可以用map容器。
+**********************
       问题描述
 **********************
 You are given a string, s, and a list of words, words, that are all of the same length. Find all starting indices of substring(s) 
