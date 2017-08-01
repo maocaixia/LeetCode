@@ -9,6 +9,9 @@ Here are some examples. Inputs are in the left-hand column and its corresponding
 3,2,1 → 1,2,3
 1,1,5 → 1,5,1
 **********************
+reverse()用法
+http://imyon.github.io/cpp/2014/01/11/c++-reverse()%E5%87%BD%E6%95%B0%E7%9A%84%E7%94%A8%E6%B3%95
+**********************
       问题解答
 **********************
 **********************/
